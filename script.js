@@ -31,7 +31,6 @@ function shuffle() {
 
 function sort(){
     displayArr = displayArr.sort(function(a,b){return a - b});
-    console.log(displayArr)
     rearrangeNum();
 }
 
