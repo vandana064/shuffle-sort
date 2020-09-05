@@ -1,11 +1,10 @@
 var displayArr = [];
 
-$( document ).ready(function() {
     document.querySelector('.num-suffle').addEventListener('click', shuffle);
     document.querySelector('.num-sort').addEventListener('click', sort);
 
     var toAdd = document.createDocumentFragment();
-for(var i=0; i < 9; i++){
+   for(var i=0; i < 9; i++){
    var newDiv = document.createElement('div');
    var newSpan = document.createElement('span');
    
@@ -16,11 +15,10 @@ for(var i=0; i < 9; i++){
    newDiv.appendChild(newSpan);
    displayArr.push(i+1);
    toAdd.appendChild(newDiv);
-}
+   }
 
 document.getElementById('grid-temp').appendChild(toAdd);
  
-});
 
 
 function shuffle() {
