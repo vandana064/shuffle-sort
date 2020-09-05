@@ -8,8 +8,8 @@ body {
 }
 
 
-@media screen and (min-width: 376px) {
-    .full-page{
+@media screen and (min-width: 960px) {
+    .head{
         display: flex;
         flex-direction: column;
         color: #000000;
@@ -101,8 +101,8 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .full-page{
+@media screen and (max-width: 959px) {
+    .head{
         display: flex;
         flex-direction: column;
         background-color: #212121;
